@@ -13,15 +13,15 @@ export const Navbar = () => {
           Herrera
         </Link>
         <div className="navbar-menu">
-          <Link to="/services" className="navbar-link">
+          <a href="#services" className="navbar-link">
             Services
-          </Link>
-          <Link to="/about" className="navbar-link">
+          </a>
+          <a href="#about" className="navbar-link">
             About
-          </Link>
-          <Link to="/contact" className="navbar-link">
+          </a>
+          <a href="#contact" className="navbar-link">
             Contact
-          </Link>
+          </a>
         </div>
       </div>
     </nav>

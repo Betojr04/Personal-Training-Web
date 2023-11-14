@@ -3,7 +3,7 @@ import "../styles/Services.css"; // Adjust the path as necessary
 
 export const Services = () => {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <h2 className="services-title">Services</h2>
       <div className="service-cards">
         {/* Example of a Service Card */}
