@@ -23,8 +23,9 @@ export const Footer = () => {
           </Link>
         </div>
         <div className="footer-copy">
-          &copy; {new Date().getFullYear()} Alberto Valtierra Jr. All Rights
-          Reserved.
+          &copy; {new Date().getFullYear()}{" "}
+          <a href="https://betowebdev-six.vercel.app/">Alberto Valtierra Jr</a>.
+          All Rights Reserved.
         </div>
       </div>
     </footer>
